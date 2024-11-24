@@ -4,7 +4,11 @@ import pandas as pd
 # Raw URL of your CSV file from GitHub
 df=pd.read_csv("youtube_data_eda_2.csv")# Replace with your actual file path
 
-st.title("رائج")
+st.markdown("""
+<div style="text-align: center;">
+    <h1>رائج</h1>
+</div>
+""", unsafe_allow_html=True)
 st.write("""
 <div style='text-align: right; direction: rtl;'>
     قد فكرت في يوم في القنوات اللي بتحقق أعلى نسب مشاهدة في السعودية؟ 
