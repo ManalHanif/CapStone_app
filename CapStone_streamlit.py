@@ -15,6 +15,6 @@ st.write("""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown("<h3 style='text-align: right;'>من وين تجي الأرقام؟</h3>", unsafe_allow_html=True)
+# st.markdown("<h3 style='text-align: right;'>من وين تجي الأرقام؟</h3>", unsafe_allow_html=True)
 
 # df
